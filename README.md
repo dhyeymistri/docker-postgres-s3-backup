@@ -1,5 +1,8 @@
 # Zero-Friction Postgres → S3/R2 Backup Sidecar
 
+> 💡 **Looking for a ready-to-deploy, turnkey appliance?**  
+> Download the pre-packaged bundle with zero-disk streaming and multi-storage configs on [Gumroad](https://mistral117.gumroad.com/l/postgres-s3-backup-docker).
+
 A self-contained Docker sidecar that takes compressed daily snapshots of a
 PostgreSQL database, ships them to any S3-compatible storage (Cloudflare R2,
 AWS S3, MinIO, Wasabi, Backblaze B2), and prunes archives past a retention
